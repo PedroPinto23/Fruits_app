@@ -6,6 +6,6 @@ API used in this project: 'https://raw.githubusercontent.com/muxidev/desafio-and
 # PREVIEW
 
 <p float="left">
-<img src="images/main_screen.png" width="300" /> 
-<img src="images/details_screen.png" width="300" />
+<img src="images/main_screen.jpg" width="300" /> 
+<img src="images/details_screen.jpg" width="300" />
 </p>
