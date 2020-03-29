@@ -25,15 +25,18 @@ class Description extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                Container(
-                    padding: EdgeInsets.all(20),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(8),
-                      child: Image.network(
-                        image,
-                        fit: BoxFit.cover,
-                      ),
-                    )),
+                Card(
+                  elevation: 5,
+                  child: Container(
+                      padding: EdgeInsets.all(20),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(8),
+                        child: Image.network(
+                          image,
+                          fit: BoxFit.cover,
+                        ),
+                      )),
+                ),
                 SizedBox(
                   height: 20,
                 ),
@@ -87,7 +90,7 @@ class Description extends StatelessWidget {
                   ),
                 ),
               ],
-            ) ,
+            ),
           )),
     );
   }

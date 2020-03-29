@@ -45,6 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           centerTitle: true,
         ),
+        drawer: Drawer(),
         body: Stack(
           children: <Widget>[
             Container(
