@@ -76,17 +76,20 @@ class Description extends StatelessWidget {
                 ),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(15),
-                  child: RaisedButton(
-                    padding: EdgeInsets.all(18),
-                    color: Colors.red,
-                    child: Text(
-                      "BUY",
-                      style: GoogleFonts.pressStart2P(
-                        color: Colors.yellow,
-                        fontSize: 30,
+                  child: Card(
+                    elevation: 10,
+                    child: RaisedButton(
+                      padding: EdgeInsets.all(18),
+                      color: Colors.red,
+                      child: Text(
+                        "BUY",
+                        style: GoogleFonts.pressStart2P(
+                          color: Colors.yellow,
+                          fontSize: 30,
+                        ),
                       ),
+                      onPressed: () {},
                     ),
-                    onPressed: () {},
                   ),
                 ),
               ],
